@@ -1,6 +1,6 @@
 package HomeWork;
 import java.util.Random;
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class hw1 {
     public static void main (String [] args) {
