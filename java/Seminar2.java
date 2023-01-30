@@ -57,17 +57,17 @@ public class Seminar2 {
         System.out.println(oper);
 
         StringBuilder q = new StringBuilder();
-        String w = "";
+        String w = "=";
 
         long begin1 = System.currentTimeMillis();
-        for(int i = 0; i<100000; i++) {
+        for(int i = 0; i<10000; i++) {
             q.append("R ");
         }
         
         long fin1 = System.currentTimeMillis();
         
         long begin2 = System.currentTimeMillis();
-        for(int i = 0; i<100000; i++) {
+        for(int i = 0; i<10000; i++) {
             w += "R ";
         }
         
